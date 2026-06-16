@@ -1,0 +1,10 @@
+C:\Users\Zalgo\source\repos\Lab4\Lab2\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\Zalgo\source\repos\Lab4\Lab2\obj\Debug\Lab1._1.Form1.resources
+C:\Users\Zalgo\source\repos\Lab4\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\Zalgo\source\repos\Lab4\Lab2\obj\Debug\Lab3.csproj.GenerateResource.cache
+C:\Users\Zalgo\source\repos\Lab4\Lab2\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Zalgo\source\repos\Lab4\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Zalgo\source\repos\Lab4\Lab2\bin\Debug\Lab2.exe
+C:\Users\Zalgo\source\repos\Lab4\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Zalgo\source\repos\Lab4\Lab2\obj\Debug\Lab2.exe
+C:\Users\Zalgo\source\repos\Lab4\Lab2\obj\Debug\Lab2.pdb

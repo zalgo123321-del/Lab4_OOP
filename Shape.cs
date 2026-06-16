@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -15,8 +11,7 @@ namespace Lab2
         protected float _width;
         protected float _height;
 
-        protected Shape(float x, float y,
-                        float width, float height)
+        protected Shape(float x, float y, float width, float height)
         {
             _x = x;
             _y = y;
@@ -26,8 +21,45 @@ namespace Lab2
 
         public abstract float Area();
 
-        public abstract void Draw(
-            PictureBox pictureBox,
-            Color color);
+        public abstract void Draw(PictureBox pictureBox, Color color);
+
+        public float AreaValue()
+        {
+            return Area();
+        }
+
+        public static Shape operator ++(Shape s)
+        {
+            s._x += 10;
+            s._y += 10;
+            return s;
+        }
+
+        public static Shape operator --(Shape s)
+        {
+            s._x -= 10;
+            s._y -= 10;
+            return s;
+        }
+
+        public static float operator +(Shape a, Shape b)
+        {
+            return a.Area() + b.Area();
+        }
+
+        public static float operator -(Shape a, Shape b)
+        {
+            return a.Area() - b.Area();
+        }
+
+        public static bool operator >(Shape a, Shape b)
+        {
+            return a.Area() > b.Area();
+        }
+
+        public static bool operator <(Shape a, Shape b)
+        {
+            return a.Area() < b.Area();
+        }
     }
 }
